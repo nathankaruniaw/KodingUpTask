@@ -1,3 +1,7 @@
-console.log("Welcome to Javascript");
-console.log("I am a programmer");
-console.log("Programming is fun");
+let sum = 0;
+
+for (let number = 1; number <= 9; number++) {
+  sum += number;
+}
+
+console.log(sum);
